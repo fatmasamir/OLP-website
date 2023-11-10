@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories classrooms ">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <!-- Topics -->
+  <section class="Topics  Test" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="Questions">
+        <h2>Terms and basics - Islamic literature</h2>
+        <p>Our literature education group is a supportive and engaging community for those who love to read and discuss
+          literature.<br> We provide a space for members to explore classic and contemporary works, share their<br>
+          perspectives, and deepen their understanding of literary themes and techniques. Through stimulating
+          conversations, engaging activities, and ongoing<br> learning opportunities, we strive to foster a love of
+          reading
+          and lifelong intellectual growth.</p>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h2>The first question</h2>
+            <h5 class="question">Here write the question? </h5>
+            <div class="questions_chooes ">
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerq1" placeholder="answer q1 " name="answerq"><label
+                  for="answerq1" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle answerq" for="answerq1"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerq2" placeholder="answer q2 " name="answerq"><label
+                  for="answerq2" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle answerq" for="answerq2"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerq3" placeholder="answer q2 " name="answerq"><label
+                  for="answerq3" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle answerq" for="answerq3"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerq4" placeholder="answer q2 " name="answerq"><label
+                  for="answerq4" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle answerq" for="answerq4"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h2>The second question</h2>
+            <h5 class="question">Here write the question? </h5>
+            <div class="questions_chooes">
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answersecondq1" placeholder="answer q1 "
+                  name="answersecondq"><label for="answersecondq1" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answersecondq1"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answersecondq2" placeholder="answer q2 "
+                  name="answersecondq"><label for="answersecondq2" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answersecondq2"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answersecondq3" placeholder="answer q2 "
+                  name="answersecondq"><label for="answersecondq3" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answersecondq3"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answersecondq4" placeholder="answer q2 "
+                  name="answersecondq"><label for="answersecondq4" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answersecondq4"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h2>The third question</h2>
+            <h5 class="question">Here write the question? </h5>
+            <div class="questions_chooes">
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerthirdq1" placeholder="answer q1 "
+                  name="answerthirdq"><label for="answerthirdq1" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerthirdq1"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerthirdq2" placeholder="answer q2 "
+                  name="answerthirdq"><label for="answerthirdq2" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerthirdq2"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerthirdq3" placeholder="answer q2 "
+                  name="answerthirdq"><label for="answerthirdq3" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerthirdq3"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerthirdq4" placeholder="answer q2 "
+                  name="answerthirdq"><label for="answerthirdq4" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerthirdq4"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <h2>The fourth question</h2>
+            <h5 class="question">Here write the question? </h5>
+            <div class="questions_chooes">
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerfourthq1" placeholder="answer fourth q1 "
+                  name="answerfourthq"><label for="answerfourthq1" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerfourthq1"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerfourthq2" placeholder="answer fourth q2"
+                  name="answerfourthq"><label for="answerfourthq2" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerfourthq2"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerfourthq3" placeholder="answer fourth q3 "
+                  name="answerfourthq"><label for="answerfourthq3" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerfourthq3"></i></label>
+              </div>
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="answerfourthq4" placeholder="answer fourth q4 "
+                  name="answerfourthq"><label for="answerfourthq4" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="answerfourthq4"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="buttons"><button class="btn btn-cancel" data-bs-toggle="modal"
+                data-bs-target="#cancle">Ending</button><button class="btn btn-styling" data-bs-toggle="modal"
+                data-bs-target="#ReviewAnswers">Submit</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+
+  <div class="modal cancle_modal" id="cancle" tabindex="-1" aria-labelledby="cancle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Ending the test</h3>
+          <p class="mb-3">Are you sure you want to Delete?<br>
+            Package will be deleted permanently</p>
+          <div class="button"><button class="btn logout">Ending</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style styling_test" id="ReviewAnswers" tabindex="-1" aria-labelledby="ReviewAnswers"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h2>The second question</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <h5>Here write the question?</h5>
+              <div class="questions_chooes">
+                <div class="form-group  qutionChooes1_sc">
+                  <label for="answersecondq1" class="flex"><Span>Question
+                      name</Span>
+                    <i class="bi bi-check-circle " for="answersecondq1"></i></label>
+                </div>
+                <div class="form-group  qutionChooes1_sc currect">
+                  <label for="answersecondq2" class="flex "><Span>Question
+                      name</Span>
+                    <i class="bi bi-check-circle " for="answersecondq2"></i></label>
+                </div>
+                <div class="form-group  qutionChooes1_sc">
+                  <label for="answersecondq3" class="flex"><Span>Question
+                      name</Span>
+                    <i class="bi bi-check-circle " for="answersecondq3"></i></label>
+                </div>
+                <div class="form-group  qutionChooes1_sc notCurrect">
+                  <label for="answersecondq4" class="flex "><Span>Question
+                      name</Span>
+                    <i class="bi bi-check-circle " for="answersecondq4"></i></label>
+                </div>
+              </div>
+              <div class="questionNumber text-center mt-4">
+                <p>1 out of 4</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="button"><button class="btn btn-styling2">Previous</button><button
+                  class="btn btn-styling">Next</button></div>
+            </div>
+            <div class="col-lg-6">
+              <ul class="info">
+                <li class="wrong">
+                  <h6>4/1</h6>
+                  <p>The wrong questions</p>
+                </li>
+                <li class="right">
+                  <h6>4/3</h6>
+                  <p>The right questions</p>
+                </li>
+                <li class="ranking">
+                  <h6>09</h6>
+                  <p>My ranking</p>
+                </li>
+              </ul>
+              <div class="list">
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="flex">
+                    <div><img src="./assets/RoomOwner/man.svg">
+                      <span>Mohamed Elsharif </spa>
+                    </div>
+                    <div class="number"><span>1</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

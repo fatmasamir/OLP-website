@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+  <link rel="stylesheet" href="css/chat.css" />
+</head>
+
+<body class="homepage categories classrooms RoomOwner">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <div class="conversation">
+    <div class="row">
+      <div class="col-md-9 meeting">
+        <div class="flex justify-space-between align-items">
+          <div class="setting" data-bs-toggle="modal" data-bs-target="#meetingSettings"><img
+              src="./assets/conversation/setting-2.svg"></div>
+          <ul class="styling_chat flex">
+            <li><button class="btn btn_without_styling"><img src="./assets/conversation/style1.svg"></button></li>
+            <li><button class="btn btn_without_styling"><img src="./assets/conversation/styl2.svg"></button></li>
+            <li><button class="btn btn_without_styling"><img src="./assets/conversation/style3.svg"></button></li>
+            <li><button class="btn btn_without_styling"><img src="./assets/conversation/style4.svg"></button></li>
+          </ul>
+          <button class="btn times"><img src="./assets/conversation/Component.svg">13:03:34</button>
+        </div>
+        <div class="members_show">
+          <div class="row">
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+            <div class="col-md-3 col-sm-6"><img src="./assets/conversation/woman3.svg"></div>
+          </div>
+        </div>
+        <div class="flex settings_meeting justify-space-between mt-4 align-items">
+          <div class=" range_sound"> <button id="play-icon"></button><img src="./assets/conversation/Speaker.svg">
+            <input type="range" value="30" min="0" max="100" id="sound-slider">
+          </div>
+          <div class="control_settings">
+            <ul class=" sound">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/sound.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" styling">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/styling.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" camera">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/camera_gray.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" camera">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/registration.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" screen">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/screen_gray.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" hand">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/hand.svg">
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Everyone">
+                    <li><a class="dropdown-item" href="#">--</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class=" upload emoji">
+              <li>
+                <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle emoshan" type="button" id="emoshan"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/conversation/emoshan.svg">
+                  </button>
+                  <ul class="dropdown-menu " aria-labelledby="emoshan">
+                    <li>
+                      <a>&#128512;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                    <li>
+                      <a>&#128515;</a>
+                    </li>
+                    <li>
+                      <a>&#128517;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                    <li>
+                      <a>&#128513;</a>
+                    </li>
+                    <li>
+                      <a>&#128525;</a>
+                    </li>
+                    <li>
+                      <a>&#128151;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                    <li>
+                      <a>&#128514;</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-end" data-bs-toggle="modal" data-bs-target="#End">End
+            the meeting</button>
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="Active ">
+          <div class="flex Active_buttons">
+            <button class="btn" id="Participants"><img src="./assets/conversation/Participants.svg" />
+              Participants</button>
+            <button class="btn active" id="Apps">
+              <img src="./assets/conversation/Apps.svg" /> Apps <span class="avalible"></span>
+            </button>
+          </div>
+          <div class="Active_apps" id="ActiveApps">
+            <p>Active apps</p>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/calculator.svg"></div>
+                <div class="">
+                  <h6>Calculator</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/keyboard-open.svg"></div>
+                <div class="">
+                  <h6>Whiteboard</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/trend-up.svg"></div>
+                <div class="">
+                  <h6>Vote</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="text-center buttons_popup">
+              <button class="btn" data-bs-toggle="modal" data-bs-target="#Add_new_test_vote">Add questions to vote +
+              </button>
+              <button class="btn" data-bs-toggle="modal" data-bs-target="#questionVote">Show results <i
+                  class="bi bi-eye"></i> </button>
+            </div>
+            <p>All apps</p>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/calculator.svg"></div>
+                <div class="">
+                  <h6>Calculator</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/keyboard-open.svg"></div>
+                <div class="">
+                  <h6>Whiteboard</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/note.svg"></div>
+                <div class="">
+                  <h6>Notebook</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/trend-up.svg"></div>
+                <div class="">
+                  <h6>Vote</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <div class="calculator_img"><img src="./assets/conversation/translate.svg"></div>
+                <div class="">
+                  <h6>Translation</h6>
+                  <span>Use it for various calculations</span>
+                </div>
+              </div>
+              <div class="content">
+                <button class="btn btn_on btn_without_styling">On</button>
+              </div>
+            </div>
+          </div>
+          <div id="Active_Participants">
+            <div class="members">
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman.svg">
+                  <div>
+                    <h6>Hoda</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman2.svg">
+                  <div>
+                    <h6>Reham</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Co-Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman.svg">
+                  <div>
+                    <h6>Hoda</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman2.svg">
+                  <div>
+                    <h6>Reham</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Co-Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman.svg">
+                  <div>
+                    <h6>Hoda</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman2.svg">
+                  <div>
+                    <h6>Reham</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Co-Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman.svg">
+                  <div>
+                    <h6>Hoda</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman2.svg">
+                  <div>
+                    <h6>Reham</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Co-Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman.svg">
+                  <div>
+                    <h6>Hoda</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="flex info_member"><img src="./assets/conversation/woman2.svg">
+                  <div>
+                    <h6>Reham</h6>
+                    <p>Software Developer</p>
+                  </div>
+                </div>
+                <div class="flex members_icon"><span class="mans_info">Co-Host</span>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/record.svg">
+                  </button>
+                  <button class="btn btn_without_styling">
+                    <img src="./assets/conversation/camera.svg">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="list">
+              <ul class="flex">
+                <li>
+                  <p>Invite</p>
+                </li>
+                <li>
+                  <p>Mute all</p>
+                </li>
+                <li>
+                  <p>Ask to start video</p>
+                </li>
+              </ul>
+            </div>
+            <div class="Chats_list">
+              <div class="flex">
+                <p>Chats (3)</p><button class="btn btn_without_styling"><i
+                    class="bi bi-three-dots-vertical"></i></button>
+              </div>
+            </div>
+            <div class="chating">
+              <section class="msger">
+
+                <main class="msger-chat">
+                  <div class="msg left-msg">
+
+                    <div class="msg-bubble">
+                      <div class="msg-info">
+                        <div class="msg-info-name">BOT</div>
+                        <div class="msg-info-time">12:45</div>
+                      </div>
+
+                      <div class="msg-text">
+                        Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="msg right-msg">
+
+
+                    <div class="msg-bubble">
+                      <div class="msg-info">
+                        <div class="msg-info-name">Sajad</div>
+                        <div class="msg-info-time">12:46</div>
+                      </div>
+
+                      <div class="msg-text">
+                        You can change your name in JS section!
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </section>
+              </form>
+              <div class="flex justify-space-between">
+                <ul class="chating_Everyone">
+                  <li>
+                    <div class="dropdown ">
+                      <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Everyone
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="Everyone">
+                        <li><a class="dropdown-item" href="#">Everyone</a></li>
+                        <li><a class="dropdown-item" href="#">Natura</a></li>
+                        <li><a class="dropdown-item" href="#">cecile</a></li>
+                        <li><a class="dropdown-item" href="#">Nico</a></li>
+                        <li><a class="dropdown-item" href="#">Bryan</a></li>
+                        <li><a class="dropdown-item" href="#">Azzure</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                <div class="flex">
+                  <ul class="chating_Everyone upload">
+                    <li>
+                      <div class="dropdown ">
+                        <button class="btn btn-secondary dropdown-toggle Everyone" type="button" id="Everyone"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="./assets/conversation/upload.svg">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="Everyone">
+                          <li><a class="dropdown-item" href="#">Adio</a></li>
+                          <li><a class="dropdown-item" href="#">Docmudation</a></li>
+                          <li><a class="dropdown-item" href="#">
+                              <Picture></Picture>
+                            </a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="chating_Everyone upload emoji">
+                    <li>
+                      <div class="dropdown ">
+                        <button class="btn btn-secondary dropdown-toggle emoshan" type="button" id="emoshan"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="./assets/conversation/emoshan.svg">
+                        </button>
+                        <ul class="dropdown-menu " aria-labelledby="emoshan">
+                          <li>
+                            <a>&#128512;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                          <li>
+                            <a>&#128515;</a>
+                          </li>
+                          <li>
+                            <a>&#128517;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                          <li>
+                            <a>&#128513;</a>
+                          </li>
+                          <li>
+                            <a>&#128525;</a>
+                          </li>
+                          <li>
+                            <a>&#128151;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                          <li>
+                            <a>&#128514;</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <form class="msger-inputarea">
+                <input type="text" class="msger-input" placeholder="Enter your message...">
+                <button type="submit" class="msger-send-btn"><img src="./assets/conversation/mesage.svg"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+
+  <div class="modal cancle_modal" id="cancle" tabindex="-1" aria-labelledby="cancle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Delete the group</h3>
+          <p class="mb-3">Are you sure you want to Delete?<br>
+            Package will be deleted permanently</p>
+          <div class="button"><button class="btn logout">Delete</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal cancle_modal" id="End" tabindex="-1" aria-labelledby="End" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">End the meeting</h3>
+          <p class="mb-3">Please ensure all discussions have concluded
+          <div class="button"><button class="btn logout">End</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style inviteFriend" id="questionVote" tabindex="-1" aria-labelledby="questionVote"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="search form-group mb-3"><input type="text" placeholder="Search" class="form-control"><i
+              class="bi bi-search"></i>
+          </div>
+          <div class="list">
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+            <div class="flex">
+              <div><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div class="number"><span>3</span>/5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style styling_test" id="Add_new_test_vote" tabindex="-1" aria-labelledby="Add_new_test_vote"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="mb-5">Questions</h5>
+              <div class="list-item">
+                <div class="icon"><img src="./assets/RoomOwner/message-question.svg"></div>
+                <div class="Chapter_Literature">
+                  <h5>Chapter One Note - Arabic Literature</h5>
+                  <div class="flex individuals"><span>A total of 50 individuals</span> <span>January 31, 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon"><img src="./assets/RoomOwner/message-question.svg"></div>
+                <div class="Chapter_Literature">
+                  <h5>Chapter One Note - Arabic Literature</h5>
+                  <div class="flex individuals"><span>A total of 50 individuals</span> <span>January 31, 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon"><img src="./assets/RoomOwner/message-question.svg"></div>
+                <div class="Chapter_Literature">
+                  <h5>Chapter One Note - Arabic Literature</h5>
+                  <div class="flex individuals"><span>A total of 50 individuals</span> <span>January 31, 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 text-center link"><a href="#" class="a_link color-success" data-bs-toggle="modal"
+                  data-bs-target="#addAndeditQuestion">Add a new task +</a>
+              </div>
+              <div class="mt-4 text-center">
+                <button class="btn btn-styling saving">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style styling_test" id="addAndeditQuestion" tabindex="-1" aria-labelledby="addAndeditQuestion"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <form>
+            <div class="form-group"><label>Question name</label>
+              <input type="text" class="form-control" id="Here_write_question?" placeholder="Here write the question?">
+            </div>
+            <div class="questions_chooes">
+              <div class="form-group  qutionChooes1_sc">
+                <input type="radio" class="radio-custom" id="qutionChooes1" placeholder="Here are the choices ? "
+                  name="qutionChooes"><label for="qutionChooes1" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="qutionChooes1"></i></label>
+              </div>
+              <div class="form-group ">
+                <input type="radio" class="radio-custom" id="qutionChooes2" placeholder="Here are the choices ? "
+                  name="qutionChooes"><label for="qutionChooes2" class="flex"><Span>Question
+                    name</Span>
+                  <i class="bi bi-check-circle " for="qutionChooes2"></i></label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style styling_test" id="meetingSettings" tabindex="-1" aria-labelledby="meetingSettings"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="flex justify-space-between align-items">
+            <div class="flex"><span><img src="./assets/conversation/allow.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div><button class=" btn_without_styling color-success">On</button></div>
+          </div>
+          <div class="flex justify-space-between align-items" data-bs-toggle="modal" data-bs-target="#requestEnter">
+            <div class="flex"><span><img src="./assets/conversation/icon.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div>
+              <p class="number">9</p>
+            </div>
+          </div>
+          <hr />
+          <div class="flex justify-space-between align-items">
+            <div class="flex"><span class="background-blue"><img src="./assets/conversation/screen.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div><button class=" btn_without_styling color-success">On</button></div>
+          </div>
+          <div class="flex justify-space-between align-items">
+            <div class="flex"><span class="background-blue"><img src="./assets/conversation/fi_video.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div><button class=" btn_without_styling color-success">On</button></div>
+          </div>
+          <hr />
+          <div class="flex justify-space-between align-items">
+            <div class="flex"><span class="background-orange"><img src="./assets/conversation/icon_2.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div><button class=" btn_without_styling color-success">On</button></div>
+          </div>
+          <div class="flex justify-space-between align-items">
+            <div class="flex"><span class="background-orange"><img src="./assets/conversation/face.svg"></span>
+              <div class="">
+                <h6>Allow requests to enter the meeting</h6>
+                <p>Click here to activate this feature</p>
+              </div>
+            </div>
+            <div><button class=" btn_without_styling color-success">On</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style inviteFriend" id="requestEnter" tabindex="-1" aria-labelledby="requestEnter"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="search form-group mb-3"><input type="text" placeholder="Search" class="form-control"><i
+              class="bi bi-search"></i>
+          </div>
+          <div class="list">
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+            <div class="items ">
+              <div class="item"><img src="./assets/RoomOwner/man.svg">
+                <span>Mohamed Elsharif </span>
+              </div>
+              <div><button class="btn btn-cancel">Reject</button> <button class="btn btn-styling">Allow</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+
+</html>

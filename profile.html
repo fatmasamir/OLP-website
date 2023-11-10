@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link" href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle langButton" type="button" id="langButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a data-toggle="modal" data-target="#profileModal"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle langButton" type="button" id="langButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a data-toggle="modal" data-target="#profileModal"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <div class="profile">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 profile-information">
+          <div class="flex"><img src="./assets/profie/img_man.svg" class="profile_img">
+            <div class="info"><span>Update my profile picture</span>
+              <h3>Mohamed Elsharif</h3>
+              <p>Youremail123@gmail.com</p><img src="./assets/profie/gallery-edit.svg">
+            </div>
+          </div>
+          <div class="Internal"><a href="MyfilesandProfiles.html">
+              <h4>Internal storage</h4>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h5><span class="color-success">6GB</span> of <span class="color-success">10GB</span> has been used</h5>
+            </a>
+          </div>
+          <ul class="list">
+            <li><a href="package.html">
+                <div class="content">
+                  <h5>Packages</h5><img src="./assets/profie/cards.svg">
+                </div>
+              </a>
+            </li>
+            <li><a href="PaymentCards.html">
+                <div class="content">
+                  <h5>Payment card</h5><img src="./assets/profie/card-pos.svg">
+                </div>
+              </a>
+            </li>
+            <li><a href="MyfilesandProfiles.html">
+                <div class="content">
+                  <h5>My files and folders</h5><img src="./assets/profie/folder-2.svg">
+                </div>
+              </a>
+            </li>
+            <li><a href="Calendar.html">
+                <div class="content">
+                  <h5>Calendar</h5><img src="./assets/profie/calendar.svg">
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 p-re">
+          <ul class="list">
+            <li>
+              <div class="content">
+                <h5>Update profile details</h5><a href="#" data-bs-toggle="modal" data-bs-target="#UpdateProfile"><img
+                    src="./assets/profie/edit.svg"></a>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h5>Update password </h5><a href="#" data-bs-toggle="modal" data-bs-target="#UpdatePassword"><img
+                    src="./assets/profie/edit.svg"></a>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h5>Switch the language</h5><a href="#" data-bs-toggle="modal" data-bs-target="#differentLanguage"><img
+                    src="./assets/profie/language-square.svg"></a>
+              </div>
+            </li>
+            <li>
+              <div class="content" id="Calendar">
+                <h5>Calendar</h5>
+                <button class="color-success" id="on">On</button>
+                <button class="color-success" id="off">Off</button>
+              </div>
+            </li>
+          </ul>
+          <div class="buttons"><button data-bs-toggle="modal" data-bs-target="#DeleteModel">Delete account <img
+                src="./assets/profie/profile-delete.svg"></button><button data-bs-toggle="modal"
+              data-bs-target="#logout">Log
+              out <img src="./assets/profie/logout.svg"></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal " id="logout" tabindex="-1" aria-labelledby="logout" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Log out</h3>
+          <p class="mb-3">You are about to log out.<br />
+            Thank you for visiting!</p>
+          <div class="button"><button class="btn logout">Log out</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal " id="DeleteModel" tabindex="-1" aria-labelledby="DeleteModel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Delete account</h3>
+          <p class="mb-3">Are you sure? Deleting your account is <br /> permanent and irreversible.</p>
+          <div class="button"><button class="btn logout">Delete</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal " id="UpdateProfile" tabindex="-1" aria-labelledby="UpdateProfile" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+
+          <form>
+            <div class="form-group">
+              <label for="User_name">User name</label>
+              <input type="text" class="form-control" id="User_name" placeholder="User name">
+            </div>
+            <div class="form-group">
+              <label for="User_name">User name</label>
+              <input type="text" class="form-control" id="User_name" placeholder="User name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label> <select class="form-control">
+                <option value="+20">+20</option>
+              </select>
+              <input type="tel" class="form-control phone" id="phone" placeholder="Enter Phone Number">
+            </div>
+            <div class="button"><button class="btn ">save</button>
+              <button class="btn backButton" data-bs-dismiss="modal" aria-label="Close">Back</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal " id="UpdatePassword" tabindex="-1" aria-labelledby="UpdatePassword" aria-hidden="true">odu
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+
+          <form>
+            <div class="form-group">
+              <label for="Current_Password">Current Password</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Current_Password">
+            </div>
+            <div class="form-group">
+              <label for="Type_password">Type a new password</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Type_password">
+            </div>
+            <div class="form-group">
+              <label for="Type_new_password">Type a new password</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Type_new_password">
+            </div>
+            <div class="button"><button class="btn ">save</button>
+              <button class="btn backButton" data-bs-dismiss="modal" aria-label="Close">Back</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal " id="differentLanguage" tabindex="-1" aria-labelledby="differentLanguage" aria-hidden="true">odu
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+
+          <form>
+            <h5>Select a different language</h5>
+            <div class="row mt-4">
+              <div class="form-check col-md-12">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1" checked>English
+
+                <label class="form-check-label" for="radio1"></label>
+              </div>
+              <div class="form-check col-md-12">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Arabic
+                <label class="form-check-label" for="radio2"></label>
+              </div>
+            </div>
+            <div class="button"><button type="submit" class="btn ">save</button>
+              <button type="button" class="btn backButton" data-bs-dismiss="modal" aria-label="Close">Back</buttonty>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link active" href="#">Categories</a>
+          <a class="nav-link" href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <!-- Topics -->
+  <section class="Topics">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 content" data-aos="fade-up-right" data-aos-duration="600" data-aos-delay="600">
+          <h2>Explore Our Learning Topics
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+          <p>Discover a wealth of knowledge and skills in our diverse range.<br />
+            Our categories cover a wide range of educational content.<br />
+            Whether you are a student, teacher, or lifelong learner, our resources are <br />designed to help you
+            explore,
+            engage, and excel in your chosen field of study.<br />
+            Through interactive content and tools, you'll find everything you need to broaden<br /> your horizons and
+            achieve
+            your educational goals.</p>
+        </div>
+        <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="600" data-aos-delay="600"><img
+            src="./assets/Topics.svg"></div>
+      </div>
+      <div class="List_categories" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">
+        <div class="row List_categories">
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#sportRooms"><img src="./assets/categories/Guy.svg">
+                <h5>Sports</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#languagesRooms"><img src="./assets/categories/course.svg">
+                <h5>languages</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#SoftwareRooms"><img src="./assets/categories/Project_management.svg">
+                <h5>Software</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#MathematicsRooms"><img src="./assets/categories/course.svg">
+                <h5>mathematics</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#SciencesRooms"><img src="./assets/categories/Scientist_performing.svg">
+                <h5>Sciences</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#religionRooms"><img src="./assets/categories/meditating.svg">
+                <h5>religion</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#HistoricalRooms"><img src="./assets/categories/Candidate.svg">
+                <h5>Historical</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#CompetitionsRooms"><img src="./assets/categories/Winner_medal.svg">
+                <h5>Competitions</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#recreationalRooms"><img src="./assets/categories/Girl.svg">
+                <h5>recreational</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item"><a href="#otherRooms"><img src="./assets/categories/Woman.svg">
+                <h5>other</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </section>
+  <!-- Topics -->
+  <section class="rooms" id="sportRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2 data-aos="fade-right">sports rooms</h2>
+        <div class="dropdown DropdownRoom" data-aos="fade-left">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadsportRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadsportRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadsportRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadsportRoomsPara','UploadsportRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="languagesRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>languages rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadlanguagesRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadlanguagesRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadlanguagesRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadlanguagesRoomsPara','UploadlanguagesRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="SoftwareRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Software rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadSoftwareRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadSoftwareRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadSoftwareRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadSoftwareRoomsPara','UploadSoftwareRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="MathematicsRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Mathematics rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadMathematicsRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadMathematicsRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadMathematicsRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadMathematicsRoomsPara','UploadMathematicsRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="SciencesRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Sciences rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadSciencesRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadSciencesRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadSciencesRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadSciencesRoomsPara','UploadSciencesRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="religionRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>religion rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadreligionRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadreligionRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadreligionRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadreligionRoomsPara','UploadreligionRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="HistoricalRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Historical rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadHistoricalRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadHistoricalRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadHistoricalRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadHistoricalRoomsPara','UploadHistoricalRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="CompetitionsRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Competitions rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadCompetitionsRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadCompetitionsRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadCompetitionsRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadCompetitionsRoomsPara','UploadCompetitionsRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="recreationalRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>recreational rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadrecreationalRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadrecreationalRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadrecreationalRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadrecreationalRoomsPara','UploadrecreationalRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="rooms" id="otherRooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>other rooms</h2>
+        <div class="dropdown DropdownRoom">
+          <button class="btn btn-styling2 dropdown-toggle add_new_group" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Add a new group
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadotherRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadotherRoomsicon"></div>
+                  <input type="file" class="form-control" id="UploadotherRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadotherRoomsPara','UploadotherRoomsicon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img style="width:100%" src="./assets/categories/img1.svg">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

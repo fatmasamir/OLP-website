@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories MyfilesandProfiles">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <!-- Topics -->
+  <section class="Topics ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>My files and folders
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6 Picture" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Picture">
+            <div class="gallery"><img src="./assets/profie/gallery.svg"></div>
+            <p>Pictures</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 Videos" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Videos">
+            <div class="video-square"><img src="./assets/profie/video-square.svg"></div>
+            <p>Pictures</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-md-6 " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <div class="content_sec2 flex"><img src="./assets/profie/Internal.svg">
+            <div class="">
+              <h4 class="mb-4">Internal storage</h4>
+              <h5><span class="color-success">6GB</span> of <span class="color-success">10GB</span> has been used</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Topics Picture" id="Picture">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Picture
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg" onclick="openModal();currentSlide(1)"
+            class="hover-shadow"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+      </div>
+    </div>
+  </section>
+  <section class="Topics Picture Videos" id="Videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Videos
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg" onclick="openModal();currentSlide(1)"
+            class="hover-shadow"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+        <div class="col-lg-2 col-md-4"><img src="./assets/profie/image1.svg"></div>
+      </div>
+    </div>
+  </section>
+  <section class="Topics Picture Documents" id="Documents">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Documents
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+      </div>
+      <div class="row mt-5">
+
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-4 Documents" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <a class="content_sec" href="#Documents">
+            <div class="video-square"><img src="./assets/profie/document-text.svg"></div>
+            <p>Documents</p>
+          </a>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+  <div id="MyfilesandProfilesModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <img src="./assets/profie/image1.svg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/profie/imge2.svg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/profie/image1.svg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/profie/image1.svg" style="width:100%">
+      </div>
+
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+  <script>
+    function openModal() {
+      document.getElementById("MyfilesandProfilesModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("MyfilesandProfilesModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      // dots[slideIndex - 1].className += " active";
+      // captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+</body>
+
+</html>

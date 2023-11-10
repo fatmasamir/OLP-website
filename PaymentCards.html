@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories  PaymentCards">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <!-- Topics -->
+  <section class="Topics PaymentCards_items">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Payment cards
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row items">
+        <div class="col-lg-5 col-md-7">
+          <ul>
+            <li class="flex"><a href="#" data-bs-toggle="modal" data-bs-target="#BuyNow"><i
+                  class="bi bi-check-circle-fill check"></i></a>
+              <div class="content flex"><img src="./assets/profie/visa-logo.svg" class="PaymentCards_way">
+                <div class="">
+                  <h5>xxxx xxxx xxx xxxx</h5><span>02/2026</span><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#EditNewPayment"><img src="./assets/profie/edit.svg" class="edit" /></a>
+                </div>
+              </div>
+            </li>
+            <li class="flex mt-4"><a href="#" data-bs-toggle="modal" data-bs-target="#BuyNow"><i
+                  class="bi bi-check-circle check"></i></a>
+              <div class="content flex"><img src="./assets/profie/Mastercard.svg" class="PaymentCards_way">
+                <div class="">
+                  <h5>xxxx xxxx xxx xxxx</h5><span>02/2026</span><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#EditNewPayment"><img src="./assets/profie/edit.svg" class="edit" /></a>
+                </div>
+              </div>
+            </li>
+            <li class="flex mt-4"><a href="#" data-bs-toggle="modal" data-bs-target="#BuyNow"><i
+                  class="bi bi-check-circle check"></i></a>
+              <div class="content flex"><img src="./assets/profie/ApplePay.svg" class="PaymentCards_way">
+                <div class="">
+                  <h5>xxxx xxxx xxx xxxx</h5><span>02/2026</span><a href="#" data-bs-toggle="modal"
+                    data-bs-target="#EditNewPayment"><img src="./assets/profie/edit.svg" class="edit" /></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-7 col-md-5 text-right"><button class="btn btn-styling2" data-bs-toggle="modal"
+            data-bs-target="#AddNewPayment">Add a new payment card +</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+  <div class="modal modal-style" id="BuyNow" tabindex="-1" aria-labelledby="BuyNow" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Buy now</h3>
+          <p class="mb-3">Get it now! Buy our package and enjoy the benefits</p>
+          <div class="button"><button class="btn Pay" data-bs-toggle="modal" data-bs-target="#BuyingSucceeded">Pay SAR
+              120</button>
+            <button class="btn btn-styling2" data-bs-dismiss="modal" aria-label="Close">Cancle</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style" id="BuyingSucceeded" tabindex="-1" aria-labelledby="BuyingSucceeded"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Buying succeeded</h3>
+          <p class="mb-3">Purchase complete! <br />
+            Thank you for choosing our package. Enjoy!</p>
+          <div class="button"><button class="btn Pay"> Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style" id="AddNewPayment" tabindex="-1" aria-labelledby="AddNewPayment" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+
+          <form>
+            <div class="form-group">
+              <label for="Card_Number">Card Number</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Card_Number">
+            </div>
+            <div class="form-group">
+              <label for="Owner_name">Owner's name</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Owner_name">
+            </div>
+            <div class="flex Expiration">
+              <div class="form-group ">
+                <label for="Expiration_Date">Expiration Date</label>
+                <input type="text" class="form-control" id="User_name" placeholder="Expiration_Date">
+              </div>
+              <div class="form-group">
+                <label for="CVV">CVV</label>
+                <input type="text" class="form-control" id="User_name" placeholder="CVV">
+              </div>
+            </div>
+            <div class="form-group mb-3"><input type="checkbox"> Save card details</div>
+            <div class="button"><button class="btn ">save</button>
+              <button class="btn btn-styling2" data-bs-dismiss="modal" aria-label="Close">cancle</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-style" id="EditNewPayment" tabindex="-1" aria-labelledby="EditNewPayment" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+
+          <form>
+            <div class="form-group">
+              <label for="Card_Number">Card Number</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Card_Number">
+            </div>
+            <div class="form-group">
+              <label for="Owner_name">Owner's name</label>
+              <input type="text" class="form-control" id="User_name" placeholder="Owner_name">
+            </div>
+            <div class="flex Expiration">
+              <div class="form-group ">
+                <label for="Expiration_Date">Expiration Date</label>
+                <input type="text" class="form-control" id="User_name" placeholder="Expiration_Date">
+              </div>
+              <div class="form-group">
+                <label for="CVV">CVV</label>
+                <input type="text" class="form-control" id="User_name" placeholder="CVV">
+              </div>
+            </div>
+            <div class="form-group mb-3"><input type="checkbox"> Save card details</div>
+            <div class="button"><button class="btn ">save</button>
+              <button class="btn btn-styling2" data-bs-dismiss="modal" aria-label="Close">cancle</button>
+              <button class="btn remove" data-bs-dismiss="modal" aria-label="Close">Remove</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

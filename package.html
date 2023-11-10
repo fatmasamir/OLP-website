@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories  package">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <!-- Topics -->
+  <section class="Topics package-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Current package
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-12 col-sm-6 " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <di class="flex info-date">
+            <img src="./assets/profie/award.svg">
+            <h5>The silver package</h5>
+        </div>
+        <div class="col-md-12 col-sm-6 Picture" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <di class="flex info-date">
+            <img src="./assets/profie/calendar.svg">
+            <h5>Subscribed since: <span class="color-success">12/1/2023</span></h5>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-6 " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <div class="content_sec2 flex"><img src="./assets/profie/Internal.svg">
+            <div class="">
+              <h4 class="mb-4">Internal storage</h4>
+              <h5><span class="color-success">6GB</span> of <span class="color-success">10GB</span> has been used</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <div class="content_sec2 flex"><img src="./assets/profie/Internal.svg">
+            <div class="">
+              <h4 class="mb-4">Internal storage</h4>
+              <h5><span class="color-success">6GB</span> of <span class="color-success">10GB</span> has been used</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div><button class="btn cancleButton" data-bs-toggle="modal" data-bs-target="#cancle">cancle</button></div>
+    </div>
+    </div>
+  </section>
+  <section class="Topics Picture" id="Picture">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>All previous packages
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Package name</th>
+            <th scope="col">Reference num</th>
+            <th scope="col">The cost</th>
+            <th scope="col">The date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Golden</td>
+            <td>16467</td>
+            <td>120 riyals</td>
+            <td>20/4/2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="Topics packages">
+    <div class="container">
+      <div class="">
+        <div class="content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>All other packages
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+        </div>
+        <div class="content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h4>Monthly packages
+          </h4>
+        </div>
+        <div class="row items_packages content ">
+          <div class="col-md-4" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award.svg">
+              <p>The silver package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+          <div class="col-md-4 Golden" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award_2.svg">
+              <p>The Golden package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+          <div class="col-md-4 Diamond " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award_3.svg">
+              <p>The Diamond package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+        </div>
+        <div class="content mt-5 mb-5" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h4>Yearly packages
+          </h4>
+        </div>
+        <div class="row items_packages content ">
+          <div class="col-md-4" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award.svg">
+              <p>The silver package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+          <div class="col-md-4 Golden" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award_2.svg">
+              <p>The Golden package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+          <div class="col-md-4 Diamond " data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+            <div class="flex title">
+              <img src="./assets/profie/award_3.svg">
+              <p>The Diamond package</p>
+            </div>
+            <div class="row items mb-4 mt-4">
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">100 GB</div>
+                  <p>Internal storage</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="content">
+                  <div class="numbers">10</div>
+                  <p>Available rooms</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12"><button class="btn btn-styling">Enroll Now</button></div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+
+  <div class="modal " id="cancle" tabindex="-1" aria-labelledby="cancle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <h3 class="mb-3">Cancel the Package</h3>
+          <p class="mb-3">Are you sure you want to cancel?<br>
+            Package will be deleted permanently</p>
+          <div class="button"><button class="btn logout">Confirm</button>
+            <button class="btn " data-bs-dismiss="modal" aria-label="Close">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

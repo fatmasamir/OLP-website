@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/all.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" />
+  <!-- fancyBox link  -->
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+  <!-- aos link -->
+  <link rel="stylesheet" href="./css/aos.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/mainDirAr.css" />
+</head>
+
+<body class="homepage categories classrooms">
+  <div id="loading">
+    <div class="loader"><img src="./assets/logo.svg">
+      <div class="bottom ">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/logo.svg" alt="Roya" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">Main</a>
+          <a class="nav-link " href="categories.html">Categories</a>
+          <a class="nav-link " href="classrooms.html">Classrooms</a>
+          <a class="nav-link active" href="#">Discover</a>
+          <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+
+
+
+          <div class="navbar-btns">
+            <form class="">
+              <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown language">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                lang
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="langButton">
+                <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+                <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+              </ul>
+            </div>
+            <div class="dropdown notificarion">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/notificarion.svg"> <span>88</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span>
+                      <div class="flex">
+                        <button class="btn btn-styling">Accept</button>
+                        <button class="btn btn-styling2">Reject</button>
+                      </div>
+                      <span class="date">Last Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                    <div>
+                      <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                        Wednesday at 9:42 am</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-btns">
+        <form class="">
+          <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <div class="dropdown language">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="langButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            lang
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="langButton">
+            <li><a class="dropdown-item" href="#" onclick="language('en')">En</a></li>
+            <li><a class="dropdown-item" href="#" onclick="language('ar')">Ar</a></li>
+          </ul>
+        </div>
+        <div class="dropdown notificarion">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./assets/notificarion.svg"> <span>88</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span>
+                  <div class="flex">
+                    <button class="btn btn-styling">Accept</button>
+                    <button class="btn btn-styling2">Reject</button>
+                  </div>
+                  <span class="date">Last Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+            <li><a class="dropdown-item" href="#"><img src="./assets/man1.svg" class="img-profile">
+                <div>
+                  <span>You have been invited to the "Learn to Program" group.</span> <span class="date">Last
+                    Wednesday at 9:42 am</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="profile.html"><img src="./assets/man.svg" class="img-profile"></a>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+
+  <!-- Discover -->
+  <section class="Topics Discover">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8 col-md-12 content" data-aos="fade-up-right" data-aos-duration="2" data-aos-delay="2">
+          <h2>Discover New Learning Opportunities!
+            <div class="icon_bac"><img src="./assets/Frame.svg"></div>
+          </h2>
+          <p>Don't limit your learning to just one room.<br />
+            Explore our wide range of educational rooms and discover new opportunities<br /> for growth and
+            development.<br />
+            With a range of subjects, levels and teaching styles, there is something for <br />everyone.<br />
+            So why are you waiting? Start your journey today and see how far your learning can take you.</p>
+        </div>
+        <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="2" data-aos-delay="2"><img
+            src="./assets/Discover.svg"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Topics -->
+  <section class="rooms" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">
+    <div class="container">
+      <div class="flex">
+        <h2>Find more learning spaces</h2>
+        <div class="dropdown DropdownRoom">
+          <span class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="./assets/categories/sort.svg">
+          </span>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <h5>Choose the group type
+            </h5>
+            <form action="#">
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Public1"
+                    checked>Public
+
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Public2">Private
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+              </div>
+              <h5>Choose category</h5>
+              <div class="row">
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="sports" name="sports" value="sports"
+                    checked>sports
+
+                  <label class="form-check-label" for="chooseGroup"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="Historical" name="Historical"
+                    value="Historical">Historical
+                  <label class="form-check-label" for="Historical"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="software" name="chooseGroup"
+                    value="chooseGroup">software
+                  <label class="form-check-label" for="software"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="mathematics" name="mathematics"
+                    value="mathematics">mathematics
+                  <label class="form-check-label" for="mathematics"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="religion" name="religion"
+                    value="religion">religion
+                  <label class="form-check-label" for="religion"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="competitions" name="competitions"
+                    value="competitions">competitions
+                  <label class="form-check-label" for="competitions"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="Sciences" name="Sciences"
+                    value="Sciences">Sciences
+                  <label class="form-check-label" for="Sciences"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="entertaining" name="entertaining"
+                    value="entertaining">entertaining
+                  <label class="form-check-label" for="entertaining"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="languages" name="languages"
+                    value="languages">languages
+                  <label class="form-check-label" for="languages"></label>
+                </div>
+                <div class="form-check col-md-6">
+                  <input type="checkbox" class="form-check-input" id="other" name="other" value="other">other
+                  <label class="form-check-label" for="other"></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Group_name">Group name</label>
+                <input type="text" class="form-control" id="Group_name" placeholder="Enter Group name">
+              </div>
+              <div class="form-group">
+                <label for="About_group">About the group</label> <textarea class="form-control About_group"
+                  id="About_group"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Upload" class="custom-file-upload">Upload group cover</label>
+                <div class="customer-upload flex"> <img src="./assets/file.svg">
+                  <p id="UploadFillterRoomsPara">Choose the group cover</p>
+                  <div class="bi bi-check" id="UploadFillterIcon"></div>
+                  <input type="file" class="form-control" id="UploadFillterRooms" placeholder="Enter Upload"
+                    onchange="onUpload('UploadFillterRoomsPara','UploadFillterIcon',event)">
+                </div>
+              </div>
+              <button class="btn btn-styling mt-5" data-bs-toggle="modal" data-bs-target="#Messuccess">Create the
+                group</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="list_group">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="content"><img src="./assets/categories/img1.svg" style="width:100%">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2">There are 6 people online now <img
+                  src="./assets/categories/iconOnline.svg"></button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img src="./assets/categories/img1.svg" style="width:100%">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling2 notvalid">Nobody is currently
+                available</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content"><img src="./assets/categories/img1.svg" style="width:100%">
+              <h5>Introduction to literature</h5>
+              <p>A total of 250 individuals</p><button class="btn btn-styling">Enroll with us now</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center link"><a href="#" class="a_link">Find more</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row text-center ">
+      <div class="col-md-12"><img src="./assets/logo.svg"></div>
+      <div class="col-md-12  links">
+        <a class="nav-link active" href="index.html">Main</a>
+        <a class="nav-link" href="categories.html">Categories</a>
+        <a class="nav-link" href="Classrooms.html">Classrooms</a>
+        <a class="nav-link" href="Discover.html">Discover</a>
+        <a class="nav-link" href="index.html#ContentUs">Contact us</a>
+      </div>
+      <hr />
+      <p>Copyright © 2023 ONLINEPEN EDUCATION . All rights reserved.</p>
+  </footer>
+  <!-- Bootstrap -->
+  <!-- <script src="./js/popper.min.js"></script> -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- fancyBox script -->
+  <script src="./js/fancybox.min.js"></script>
+  <!-- aos script -->
+  <script src="./js/aos.js"></script>
+  <!-- Font Awesome -->
+  <script src="./js/all.js"></script>
+  <!-- JS Coded -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
